@@ -60,3 +60,4 @@ gem 'devise', '~> 4.7', '>= 4.7.2'
 gem 'bootstrap', '~> 4.5.0'
 gem 'jquery-rails'
 gem 'mini_racer', platforms: :ruby
+gem 'petergate', '~> 2.0', '>= 2.0.1'
