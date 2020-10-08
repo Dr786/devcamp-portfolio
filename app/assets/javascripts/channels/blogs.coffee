@@ -6,7 +6,9 @@ jQuery(document).on 'turbolinks:load', ->
       blog_id: comments.data('blog-id')
     },
     connected: ->
+      console.log('connected')
     disconnected: ->
+      console.log('connected')
     received: (data) ->
       comments.append data['comment']
     send_comment: (comment, blog_id) ->
